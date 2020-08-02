@@ -1,6 +1,6 @@
 {
-  "name": "@penneo/ipp-printer",
-  "version": "1.0.2",
+  "name": "@drdkmkkr/ipp-printer",
+  "version": "1.0.3",
   "description": "Create a printer on the network",
   "main": "index.js",
   "bin": "./bin.js",
@@ -41,9 +41,9 @@
   "author": "Thomas Watson <w@tson.dk> | Jesus Otero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Penneo/ipp-printer/issues"
+    "url": "https://github.com/drdkmkkr/ipp-printer/issues"
   },
-  "homepage": "https://github.com/Penneo/ipp-printer#readme",
+  "homepage": "https://github.com/drdkmkkr/ipp-printer#readme",
   "coordinates": [
     55.6665721,
     12.5800915
