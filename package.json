@@ -1,9 +1,11 @@
 {
-  "name": "@drdkmkkr/ipp-printer",
+  "name": "@mkkr/ipp-printer",
   "version": "1.0.3",
   "description": "Create a printer on the network",
   "main": "index.js",
-  "bin": "./bin.js",
+  "bin": {
+    "ipp-printer": "bin.js"
+  },
   "dependencies": {
     "bonjour": "^3.0.0",
     "debug": "^2.2.0",
@@ -25,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/watson/ipp-printer.git"
+    "url": "git+https://github.com/watson/ipp-printer.git"
   },
   "keywords": [
     "ipp",
@@ -38,7 +40,7 @@
     "mdns",
     "multicast"
   ],
-  "author": "Thomas Watson <w@tson.dk> | Jesus Otero",
+  "author": "Thomas Watson <w@tson.dk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/drdkmkkr/ipp-printer/issues"
@@ -47,5 +49,8 @@
   "coordinates": [
     55.6665721,
     12.5800915
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  }
 }
