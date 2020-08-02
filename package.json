@@ -1,6 +1,6 @@
 {
   "name": "@mkkr/ipp-printer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create a printer on the network",
   "main": "index.js",
   "bin": {
